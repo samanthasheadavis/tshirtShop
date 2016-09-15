@@ -1,10 +1,61 @@
+* {
+  box-sizing:border-box;
+}
+
 .container {
   overflow: hidden;
   list-style: none;
-  width: 1000px;
+  width: 75%;
   margin: 0 auto;
+  padding: 0;
 }
 
-.tshirt {
+li.tshirt {
   float:left;
+  width: 30%;
+  margin: 15px;
+  position: relative;
+}
+
+.shirtPic {
+  width: 100%;
+  height: auto;
+  border: 1px solid lightblue;
+  padding: 20px;
+}
+
+.flip {
+  position: absolute;
+  right: 0;
+}
+
+footer {
+  position: relative;
+}
+
+.name {
+  float: left;
+  margin: 0;
+  color: gray;
+  display: inline;
+}
+
+.price {
+  float: right;
+  margin: 0;
+  color: gray;
+  display: inline;
+}
+
+.icons {
+  /*float: right;*/
+  list-style: none;
+  padding-left: 5px;
+  width: 100%;
+  padding: 0;
+}
+
+.icons li{
+  float: left;
+  width: 20%;
 }
