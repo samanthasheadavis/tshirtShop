@@ -10,6 +10,7 @@
   padding: 0;
 }
 
+/*Tshirt Styles*/
 .tshirt {
   position: relative;
 }
@@ -30,19 +31,42 @@ li.tshirt {
 
 }
 
+/*Flip Icon Styles*/
 .flip  {
   position: absolute;
-  right: 0;
-  padding: 5px;
+  right: -2px;
+  top: -2px;
+  z-index: 2;
+}
+
+.flip td {
   border: 2px solid #80BBE5;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.flip td a {
   color:#80BBE5;
 }
 
+.flip td:hover {
+  background:#80BBE5;
+}
+
+.flip td:hover > a {
+  color:white;
+}
+
+/*Footer Info Styles*/
 .name {
   float: left;
   margin: 10px 0 0 0;
   color: gray;
   display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color:#80BBE5;
 }
 
 .price {
@@ -50,8 +74,13 @@ li.tshirt {
   margin: 10px 0 0 0;
   color: gray;
   display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color:#80BBE5;
 }
 
+/*Icons Styles*/
 .icons {
   padding-left: 5px;
   width: 100%;
@@ -61,13 +90,42 @@ li.tshirt {
   bottom: 4px;
 }
 
-td {
+.icons td {
   border: 2px solid #80BBE5;
   padding: 5% 0;
   text-align: center;
 }
 
-td a {
+.icons td a {
   color:#80BBE5;
   text-decoration: none;
 }
+
+.icons td:hover {
+  background: #80BBE5;
+}
+
+.icons td:hover > a {
+  color:white;
+}
+
+.xl {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/*Hidden Sizes Icons Styles*/
+.sizeIcons {
+  left: 42%;
+  bottom: 18%;
+  border-collapse: collapse;
+  position: absolute;
+  z-index: 2;
+  width: 20%;
+}
+
+.sizeIcons td {
+  border: 2px solid #80BBE5;
+  padding: 5% 0;
+  text-align: center;
+  background: white;
