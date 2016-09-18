@@ -258,10 +258,9 @@ left: 29px;
   transition: opacity .5s ease-in-out;
 }
   /*Animations*/
-
-td .xl:hover a {
-  color: red;
-}
+  .icons:hover .sizeIcons {
+    opacity: 1;
+  }
 
   .icons:hover .triangle1 {
       opacity: 1;
