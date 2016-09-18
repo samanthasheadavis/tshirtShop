@@ -137,7 +137,7 @@ li.tshirt {
 
 .sizeIcons {
   left: 108px;
-  bottom: 47px;
+  bottom: 40px;
   border-collapse: collapse;
   position: absolute;
   z-index: 2;
@@ -194,7 +194,7 @@ left: 29px;
 
   .colorIcons {
     left: 165px;
-    bottom: 47px;
+    bottom: 40px;
     border-collapse: collapse;
     position: absolute;
     z-index: 2;
@@ -211,20 +211,51 @@ left: 29px;
     background: white;
   }
 
-.blue a {
+#blue .blue a {
   color: #80BBE5;
 }
 
-.pink a {
+#blue .pink a {
   color: #d583ac;
 }
 
-.orange a {
+#blue .orange a {
   color: #deb17e;
 }
-.green a {
+#blue .green a {
   color: #8bb992;
 }
+
+#pink .blue a {
+  color: #80BBE5;
+}
+
+#pink .pink a {
+  color: #d583ac;
+}
+
+#pink .orange a {
+  color: #deb17e;
+}
+#pink .green a {
+  color: #8bb992;
+}
+
+#yellow .blue a {
+  color: #80BBE5;
+}
+
+#yellow .pink a {
+  color: #d583ac;
+}
+
+#yellow .orange a {
+  color: #deb17e;
+}
+#yellow .green a {
+  color: #8bb992;
+}
+
 
 /*Triangle Styles*/
 
@@ -236,7 +267,7 @@ left: 29px;
   border-top: 10px solid white;
   display: inline;
   position: absolute;
-  top: -6px;
+  top: -1px;
   left: 130px;
   z-index: 2;
   opacity: 0;
@@ -251,25 +282,41 @@ left: 29px;
   border-top: 10px solid white;
   display: inline;
   position: absolute;
-  top: -6px;
+  top: -1px;
   left: 187px;
   z-index: 2;
   opacity: 0;
   transition: opacity .5s ease-in-out;
 }
   /*Animations*/
-  .icons:hover .sizeIcons {
+  .xl:hover .sizeIcons {
     opacity: 1;
   }
 
-  .icons:hover .triangle1 {
+  .xl:hover .triangle1 {
       opacity: 1;
     }
 
-  .icons:hover .triangle2 {
+  #blue:hover .triangle2 {
     opacity: 1;
   }
 
-  .icons:hover .colorIcons {
+  #blue:hover .colorIcons {
+    opacity: 1;
+  }
+
+  #pink:hover .colorIcons {
+    opacity:1;
+  }
+
+  #pink:hover .triangle2 {
+    opacity: 1;
+  }
+
+  #yellow:hover .colorIcons {
+    opacity:1;
+  }
+
+  #yellow:hover .triangle2 {
     opacity: 1;
   }
