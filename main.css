@@ -2,6 +2,7 @@
   box-sizing:border-box;
 }
 
+/*container styles*/
 .container {
   overflow: hidden;
   list-style: none;
